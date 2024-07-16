@@ -1,0 +1,12 @@
+pykoopman
+einops
+torchinfo
+safetensors
+huggingface-hub
+nbdev
+matrepr
+plotly
+umap-learn
+graphviz
+torcheval
+natsort

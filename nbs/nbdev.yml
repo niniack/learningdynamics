@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "learningdynamics"
+  site-url: "https://niniack.github.io/learningdynamics"
+  description: "Learning Dynamics"
+  repo-branch: main
+  repo-url: "https://github.com/niniack/learningdynamics"

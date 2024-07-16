@@ -1,0 +1,16 @@
+website:
+  sidebar:
+    contents:
+      - index.ipynb
+      - 00_model_definition.ipynb
+      - 01_dataset_definitions.ipynb
+      - 02_visualization.ipynb
+      - 03_model_trainer.ipynb
+      - 04_scaled_model.ipynb
+      - 05_scaled_dataset.ipynb
+      - 06_pykoopman_tde.ipynb
+      - 07_pydmd_tde.ipynb
+      - 08_mnist_model_trainer.ipynb
+      - 09_mnist_scaled_model.ipynb
+      - 10_mnist_scaled_dataset.ipynb
+      - 11_mnist_pykoopman_tde.ipynb
