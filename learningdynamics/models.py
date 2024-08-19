@@ -61,8 +61,8 @@ class MLP(nn.Module):
 def init_weights(
     module: nn.Module,  # Module to apply this method on.
 ):
-    "Initialize the weights of a model"
+    "Initialize the weights of a model using He initialization"
     if isinstance(module, nn.Linear):
-        nn.init.xavier_normal_(module.weight)
+        nn.init.kaiming_normal_(module.weight, nonlinearity='relu')
         if module.bias is not None:
             module.bias.data.fill_(0.01)
