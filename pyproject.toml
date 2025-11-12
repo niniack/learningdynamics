@@ -1,0 +1,31 @@
+[project]
+name = "learningdynamics"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "nbdev",
+    "torch~=2.6.0",
+    "numpy",
+    "einops",
+    "torchinfo",
+    "safetensors",
+    "huggingface-hub",
+    "matrepr",
+    "plotly",
+    "graphviz",
+    "torcheval",
+    "natsort",
+    "ipykernel>=7.1.0",
+    "matplotlib>=3.10.7",
+    "torchvision>=0.21.0",
+    "seaborn>=0.13.2",
+]
+
+[tool.uv]
+cache-dir = "/scratch/nsa325/uv_cache/"
+link-mode = "symlink"
+
+[tool.ruff.lint]
+ignore = ["F403"]
